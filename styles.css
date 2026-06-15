@@ -1,32 +1,77 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf');
+}
+
 body{
     margin: 0;
 }
-
+    
 header{
     width: 100%;
     background-color: #1f2937;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 100px;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 0;
 }
 
 #navbar-logo{
-    color: white;
-    font-size: 36px;
-    margin-left:256px;
+    color: #f0faf8;
+    font-family:Roboto;
+    font-size: 24px;
 }
 
 #navbar-link{
     display: flex;
-    margin-right: 256px;
     gap: 18px;
 }
 
 a{
-    font-size: 26px;
-    color: #b3b5b6ef;
+    font-family:Roboto;
+    font-size: 18px;
+    color: #E5E7EB;
     text-decoration: none;
+}
+
+.heroSection{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+
+#heroSection-image-container{
+    width: 800px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#heroSection-image{
+    flex-shrink: 0;
+    width: 100%;
+    height:100%;
+    object-fit: fill;
+}
+
+#heroSection-title{
+    font-family:Roboto;
+    color: #f0faf8;
+    font-size: 60px;
+}
+
+#heroSection-subtext{
+    font-family:Roboto;
+    color: #E5E7EB;
+    font-size: 18px;
 }
