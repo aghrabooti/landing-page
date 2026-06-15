@@ -85,9 +85,12 @@ a{
     background-color: #3882f6;
     color: #E5E7EB;
     padding:10px 32px;
+    border: #f0faf8;
     border-radius: 6px;
 }
-/* 
-.heroSection-text{
-    max-height: 300px;
-} */
+
+.heroSection-button:hover{
+    border:2px #3882f6;
+    background-color: #E5E7EB;
+    color: #3882f6;
+}
