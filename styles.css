@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #1f2937;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-logo{
+    color: white;
+    font-size: 36px;
+    margin-left:256px;
+}
+
+#navbar-link{
+    display: flex;
+    margin-right: 256px;
+    gap: 18px;
+}
+
+a{
+    font-size: 26px;
+    color: #b3b5b6ef;
+    text-decoration: none;
+}
