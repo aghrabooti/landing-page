@@ -197,6 +197,7 @@ h2{
     justify-content: center;
     gap:128px;
     padding: 40px 60px;
+    border-radius: 10px;
 }
 
 .call-action-text-container{
@@ -226,4 +227,20 @@ h2{
     border: 2px solid #f0faf8;
     padding: 10px 48px;
     align-self: center;
+}
+
+.footer-section{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 48px 15px;
+    gap: 15px;
+}
+
+.footer-text{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 300;
+    color: #E5E7EB;
+    text-decoration: none;
 }
