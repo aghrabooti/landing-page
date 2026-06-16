@@ -95,7 +95,7 @@ a{
     color: #3882f6;
 }
 
-.main-container{
+.info-container{
     display: flex;
     flex-direction: column;
 }
@@ -148,4 +148,34 @@ h2{
     color: #474747;
     font-size: 18px;
     margin-top: 0;
+}
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 80px 60px;
+}
+
+.quote{
+    font-family:roboto;
+    font-style: italic;
+    font-weight:300;
+    font-size: 36px;
+    text-align: left;
+    color: #1f2937;
+}
+
+.quote-author{
+    font-family:roboto;
+    font-weight:900;
+    font-size: 26px;
+    align-self: flex-end;
+    color: #1f2937;
 }
