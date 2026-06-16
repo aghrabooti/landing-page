@@ -80,20 +80,22 @@ a{
     margin-top: 0;
 }
 
-.heroSection-button{
+.button{
     font-size: 22px;
     font-weight: bold;
     background-color: #3882f6;
     color: #E5E7EB;
-    padding:10px 32px;
-    border: #f0faf8;
     border-radius: 6px;
 }
 
-.heroSection-button:hover{
-    border:2px #3882f6;
+.heroSection-button{
+    padding:10px 32px;
+}
+
+.button:hover{
     background-color: #E5E7EB;
     color: #3882f6;
+    transition: all 0.2 ease;
 }
 
 .info-container{
@@ -179,4 +181,49 @@ h2{
     font-size: 26px;
     align-self: flex-end;
     color: #1f2937;
+}
+
+.call-action-section{
+    display: flex;
+    justify-content: center;
+    padding: 80px 50px;
+}
+
+.call-action-container{
+    max-width: 1200px;
+    width: 100%;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    gap:128px;
+    padding: 40px 60px;
+}
+
+.call-action-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.call-action-text{
+    font-family: roboto;
+    color: #E5E7EB;
+    padding:10px;
+    margin: 0;
+}
+
+.call-action-text-primary{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.call-action-text-secondary{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.call-action-button{
+    border: 2px solid #f0faf8;
+    padding: 10px 48px;
+    align-self: center;
 }
